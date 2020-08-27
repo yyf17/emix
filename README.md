@@ -58,7 +58,7 @@ The config files consist of default hyperparameter values. To change these for E
 
 To run experiments using the Docker container use the following-  
 ```
-bash run.sh $GPU python3 src/prog.py --config=emix --env-config=sc2 with env_args.map_name=2s3z
+bash run.sh $GPU python3 prog/main.py --config=emix --env-config=sc2 with env_args.map_name=2s3z
 ```
 All results will be stored in the Results folder. For additional details on loading and saving models please refer to the [PyMARL](https://github.com/oxwhirl/pymarl) page.  
 
