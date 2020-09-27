@@ -6,7 +6,7 @@
 This is the original implementation of EMIX introduced in ["Energy-based Surprise Minimization for Multiagent Value Factorization"](https://arxiv.org/pdf/2007.13690.pdf). EMIX is a multi-agent value factorization algorithm built on top of QMIX. EMIX minimizes surprise by utilizing the energy across agents in the case of multi-agent partially-observable settings. EMIX makes use of a novel surprise value function in conjunction with an energy operator to minimize surprise. Additionally, EMIX addresses overestimation error by making use of a multiple target function scheme in a scalable manner. EMIX demonstrates state-of-the-art surprise minimization performance on the [StarCraft II Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac) micromanagement benchmark.  
 
 Find out more-  
-- [arXiv](https://arxiv.org/abs/2007.13690)  
+- [arXiv](https://arxiv.org/abs/2009.09842)  
 - [Project Website](https://karush17.github.io/emix-web/)  
 - [Blog Post](https://karush17.github.io/emix-web/blog.html)  
 - [Videos](https://karush17.github.io/emix-web/videos.html)  
